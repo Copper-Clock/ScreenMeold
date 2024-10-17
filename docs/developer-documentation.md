@@ -2,7 +2,7 @@
 _(this document is in its initial phase)_
 
 Here is a high-level overview of the different components that make up the Screenly-OSE system.
-![Screenly-OSE Diagram Overview](https://raw.githubusercontent.com/screenly/screenly-ose/master/docs/images/screenly-ose-diagram-overview.png)
+![Screenly-OSE Diagram Overview](https://raw.githubusercontent.com/Copper-Clock/ScreenMe/main/docs/images/screenly-ose-diagram-overview.png)
 
 * Screenly-Viewer is what drives the screen (Ex: shows web page or image or video).
 * Screenly-Server is what the user interacts with (Ex: Web GUI).
@@ -17,9 +17,9 @@ There are currently three versions of Screenly-OSE..
 
 | Version       | Branch     | Comment    |
 | :------------- | :---------- | :----------- |
-|  Developer | [master](https://github.com/Screenly/screenly-ose)   | This is where we test things and apply latest fixes   |
-|  Production | [production](https://github.com/Screenly/screenly-ose/tree/production)   | This is the branch disk images are built from and should be properly tested    |
-|  Experimental | [experimental](https://github.com/Screenly/screenly-ose/tree/experimental)   | This is the branch for experimenting, such as using a new web browser    |
+|  Developer | [master](https://github.com/Copper-Clock/ScreenMe)   | This is where we test things and apply latest fixes   |
+|  Production | [production](https://github.com/Copper-Clock/ScreenMe/tree/production)   | This is the branch disk images are built from and should be properly tested    |
+|  Experimental | [experimental](https://github.com/Copper-Clock/ScreenMe/tree/experimental)   | This is the branch for experimenting, such as using a new web browser    |
 
 
 ### Docker and Directories
@@ -100,4 +100,4 @@ export QT_QPA_EGLFS_DEBUG=1
 Screenly OSE WebView is a custom-built web browser based on the [QT](https://www.qt.io/) toolkit framework.
 The browser is assembled with a Dockerfile and built by a `webview/build_qt#.sh` script.
 
-For further info on these files and more, visit the following link: [https://github.com/Screenly/screenly-ose/tree/master/webview](https://github.com/Screenly/screenly-ose/tree/master/webview)
+For further info on these files and more, visit the following link: [https://github.com/Copper-Clock/ScreenMe/tree/master/webview](https://github.com/Copper-Clock/ScreenMe/tree/master/webview)

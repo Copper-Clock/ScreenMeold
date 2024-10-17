@@ -2,7 +2,7 @@ This is a living document. It will be updated periodically. This is currently wo
 
 # Near future
 
-- [x] Make the [new browser](https://github.com/Screenly/screenly-ose-webview) the default browser (i.e. merge in the 'experimental branch').
+- [x] Make the [new browser](https://github.com/Copper-Clock/ScreenMe-webview) the default browser (i.e. merge in the 'experimental branch').
 - [x] Finalize the migration to Docker such that all workloads run in Docker.
 - [ ] Patch up the new browser to support modern workloads (if necessary)
 - [ ] Upgrade base image in [pi-gen](https://github.com/Screenly/pi-gen) to use Buster - [Pull Request](https://github.com/Screenly/pi-gen/pull/25)
@@ -25,5 +25,5 @@ This is a living document. It will be updated periodically. This is currently wo
 
 # Long-term
 
-- [x] Upgrade [new browser](https://github.com/Screenly/screenly-ose-webview) and add support for debugging
+- [x] Upgrade [new browser](https://github.com/Copper-Clock/ScreenMe-webview) and add support for debugging
 - [x] Add 4k support

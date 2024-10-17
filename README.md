@@ -1,4 +1,4 @@
-[![balena deploy button](https://www.balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/screenly/screenly-ose&defaultDeviceType=raspberrypi3)
+[![balena deploy button](https://www.balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/Copper-Clock/ScreenMe&defaultDeviceType=raspberrypi3)
 
 # Screenly OSE - Digital Signage for the Raspberry Pi
 
@@ -10,12 +10,12 @@ Want to help OSE thrive? Support us using [GitHub Sponsor](https://github.com/sp
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Screenly/screenly-ose&type=Date)](https://star-history.com/#Screenly/screenly-ose&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Copper-Clock/ScreenMe&type=Date)](https://star-history.com/#Copper-Clock/ScreenMe&Date)
 
 
 ## Disk images
 
-~~The recommended installation method is to grab the latest disk image from [here](https://github.com/Screenly/screenly-ose/releases).~~
+~~The recommended installation method is to grab the latest disk image from [here](https://github.com/Copper-Clock/ScreenMe/releases).~~
 
 ## Installing on Raspbian/Raspberry Pi OS
 
@@ -39,7 +39,7 @@ While you can deploy to your own Balena fleet, the easiest way to deploy using [
 
 ## Upgrading on Screenly OSE
 
-The releases are based on the [Sprints](https://github.com/Screenly/screenly-ose/projects). At the end of each sprint, we merge the master branch (also known as the developer version), into the production branch and generate a new disk image.
+The releases are based on the [Sprints](https://github.com/Copper-Clock/ScreenMe/projects). At the end of each sprint, we merge the master branch (also known as the developer version), into the production branch and generate a new disk image.
 
 Should you want to upgrade to the latest development version (for instance if you want to try a bug-fix), you can do this by simply re-running the installation script and select that you want to install the development version. Re-running the installation script should normally not take more than a few minutes (depending on how much changed).
 
@@ -53,9 +53,9 @@ Quick links:
  * [Screenly OSE Forum](https://forums.screenly.io/c/screenly-ose)
  * [Screenly OSE Home](https://www.screenly.io/ose/)
  * [Live Demo](https://ose.demo.screenlyapp.com/)
- * [QA Checklist](https://github.com/Screenly/screenly-ose/blob/master/docs/qa-checklist.md)
+ * [QA Checklist](https://github.com/Copper-Clock/ScreenMe/blob/master/docs/qa-checklist.md)
  * [API Docs](https://ose.demo.screenlyapp.com/api/docs/)
- * [Developer Documentation](https://github.com/Screenly/screenly-ose/blob/master/docs/developer-documentation.md)
+ * [Developer Documentation](https://github.com/Copper-Clock/ScreenMe/blob/master/docs/developer-documentation.md)
 
 Screenly OSE works on all Raspberry Pi versions, including Raspberry Pi Zero, Raspberry Pi 3 Model B, and Raspberry Pi 4 Model B.
 
